@@ -1,0 +1,16 @@
+[
+  {
+    "user": {
+      "username": "nhiagest@grr.la",
+      "password": "12345678",
+      "pid": "12345678"
+    }
+  },
+  {
+    "user": {
+      "username": "nhi@grr.la",
+      "password": "12345678",
+      "pid": "12345678"
+    }
+  }
+]
