@@ -15,12 +15,6 @@ public class BasePage {
     protected String lnkHyperlink = "//*[@id='content']//a[contains(@href,'%s')]";
     protected By msgTitle = By.xpath("//div[@id='content']/h1");
 
-//    private String lblTitle= "//div[@id='content']/h1[text()='%s']";
-//    public boolean isHomePageDisplayed(){
-//        String welcomeTitle = "Welcome to Safe Railway";
-//        By welcome = By.xpath(String.format(lblTitle, welcomeTitle));
-//        return getDriver().findElement(welcome).isDisplayed();
-//    }
     protected WebElement getTabElement(Tab tab){
         By byTab = By.xpath(String.format(menuTab, tab.getValueTab()));
         return getDriver().findElement(byTab);
